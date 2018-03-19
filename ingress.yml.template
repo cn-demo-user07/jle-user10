@@ -9,9 +9,8 @@ metadata:
 spec:
   rules:
   - http:
-      paths:
+      paths: 
       - path: /$WERCKER_APPLICATION_OWNER_NAME/user10/
         backend:
           serviceName: rest-jscreditscore-svc10
           servicePort: 8190
-
