@@ -6,7 +6,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: rest-jscreditscore10
-  labels:
+  labels: 
     run: rest-jscreditscore10
 spec:
   replicas: 1
